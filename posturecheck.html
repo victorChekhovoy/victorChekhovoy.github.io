@@ -16,7 +16,8 @@
 		<div>
 			<video autoplay controls width=640 class="center"></video>
 
-			<script>
+			<script type='module'>
+                import captureVideoFrame from "/node_modules/capture-video-frame/capture-video-frame.js";
 				const constraints = {
 					  video: true,
 				};
@@ -24,22 +25,17 @@
 				const video = document.querySelector("video");
 
 				navigator.mediaDevices.getUserMedia(constraints).then((stream) => {video.srcObject = stream;});
+                const frame = captureVideoFrame("video", "png");
+                const processVideo = (now, metadata) => {
+
+                }
 				languagePluginLoader.then(function() {
-                    pyodide.loadPackage('matplotlib').then(() => {
-                        pyodide.runPython('import matplotlib.pyplot as plt')
                         console.log(pyodide.runPython(`
-                            plt.plot([1,2,3,4])
-                            plt.ylabel('some numbers')
-                            plt.show()
+                            
                             `
 
                         ))
-                      //      import numpy as np
-                        //    a = np.ones([10, 10]) * 7
-                          //  print(a.mean())
-                           // ))
                     });
-                })
 
 			</script>
 		</div>
