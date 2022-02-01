@@ -432,12 +432,12 @@ a.dotted-link:hover {
 }
 
 .skills .skillset .level-bar {
-  height: 15px;
+  height: 5px;
   background: #e8e8e8;
 }
 
 .skills .skillset .level-bar-inner {
-  height: 15px;
+  height: 5px;
   background: #66cb8c;
 }
 
