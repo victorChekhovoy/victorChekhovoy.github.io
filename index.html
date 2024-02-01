@@ -44,14 +44,13 @@
 
                 <ul class="social list-inline">
                 <li class="list-inline-item"><a href="https://www.linkedin.com/in/viktor-chekhovoi-272971191/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li class="list-inline-item"><a href="https://github.com/viktorchekhovoi"><i class="fab fa-github-alt"></i></a></li>
-                        <li class="list-inline-item"><a href="https://stackoverflow.com/users/11959396/"><i class="fab fa-stack-overflow"></i></a></li>
-                <li class="list-inline-item"><a href="https://t.me/viktorbiktor"><i class="fab fa-telegram"></i></a></li>
+                <li class="list-inline-item"><a href="https://github.com/viktorchekhovoi"><i class="fab fa-github-alt"></i></a></li>
+                <li class="list-inline-item"><a href="https://stackoverflow.com/users/11959396/"><i class="fab fa-stack-overflow"></i></a></li>
                 </ul>
 
             </div>
 
-	    <img class="profile-image img-fluid float-right" src="static/profile.png" alt="Viktor Chekhovoi" height="300px" width="300px" />
+	    <img class="profile-image img-fluid float-right" src="static/profile.png" alt="Viktor Chekhovoi" height="200px" width="200px" />
         </div>
     </header>
     <!-- ******END OF HEADER****** -->
@@ -66,7 +65,7 @@
 
                         <h2 class="heading">About Me</h2>
                         <div class="content">
-                            <p>Hi! My name is Viktor and I am currently a junior student at Carleton College in Northfield, MN. My main academic interest is computer science, but I also like math, ballroom dancing, and baking bread. </p>
+                            <p>Hi! My name is Viktor and I am currently a software engineer at Caterpillar. In my free time I work on a couple of side projects, bake bread, and do ballroom dancing. </p>
                         </div>
 
                     </div>
@@ -80,21 +79,43 @@
                             <div class="item">
                                 <h3 class="title">
                                     <span>
-                                        Software Engineer Intern at Caterpillar
+                                        Software Engineer at Caterpillar
                                     </span> 
 
                                     <span class="year">
-                                        (June - August 2021, September 2021 - ...)
+                                        (Sep 2023 - )
                                     </span>
                                 </h3>
 
                                 <p>
-                                    I contributed to the development of <a target="_blank" href = "https://www.cat.com/en_US/support/technology/equipment-management.html">Foresight</a>, a risk prediction application for Caterpillar clients that collects data from Caterpillar assets and uses multiple machine learning models to predict when a certain piece of equipment is going to break or need repairs. 
-                                    Working in a small team, I <strong>developed a key feature for an early Foresight release</strong>, a filter engine for removing false positive risk predictions. 
+                                    As a full-time software engineer, I developed and implemented the AWS architecture to <strong>optimize a core feature</strong> of Caterpillar's Equipment Condition Monitoring.
+                                    For this, I used Apache Spark and EMR Serverless to retrieve and <strong>analyze usage statistics for 1.6 million assets</strong>, 
+                                    and calculate the likelihood of an asset needing repairs. My solution cut down run time <strong>from 6 hours to 30 minutes</strong>, and reduced 
+                                    <strong>monthly costs for processing the data to $30</strong>.
+
+                                    I implemented an autoscaling solution for my team's databases to accomodate spikes in read/write requests, <strong>helping prevent several outages</strong>.
+                                    I also created an internal database versioning tool using Flyway that's now used on several internal databases.
+                                </p>
+                            </div>
+
+                            <div class="item">
+                                <h3 class="title">
+                                    <span>
+                                        Software Engineer Intern at Caterpillar
+                                    </span> 
+
+                                    <span class="year">
+                                        (Jun 2021 - Jun 2023)
+                                    </span>
+                                </h3>
+
+                                <p>
+                                    I contributed to the development of <a target="_blank" href = "https://www.cat.com/en_US/support/technology/equipment-management.html">Foresight</a>, a risk prediction service for Caterpillar clients that collects data from Caterpillar assets and uses multiple machine learning models to predict when a certain piece of equipment is going to break or need repairs. 
+                                    I <strong>developed a key feature for an early Foresight release</strong>, a filter engine for removing false positive risk predictions. 
                                     For that project, I had a <strong>leading role in the development</strong> of an AWS ECS service with an Autoscaler, and created a Dockerized application for it. 
                                     In another project, I led the development of a workflow for processing machine learning model output using AWS ECS, Apache Spark and Hudi. 
-                                    My solution used an innovative storage format to utilize AWS S3 instead of DynamoDB, leading to an up to <strong>70% reduction in storage costs</strong>. 
-                                    I also regularly worked with CI/CD pipelines and datalake software such as  <a target="_blank" href="https://www.snowflake.com">Snowflake.</a>
+                                    My solution used an innovative storage format to utilize AWS S3 instead of DynamoDB, leading to an up to <strong>70% reduction in storage costs</strong> for infrequently accessed data. 
+                                    I also regularly worked with CI/CD pipelines and datalake software such as <a target="_blank" href="https://www.snowflake.com">Snowflake.</a>
                                 </p>
                             </div>
 
@@ -114,24 +135,6 @@
                                     I also contributed to the database solution for Carleton's Language Lessons - a web application for learning languages.</p>
                             </div>
 
-                            <div class="item">
-                                <h3 class="title">
-                                    <span>
-                                        Campus Ambassador for <a target="_blank" href="morningbrew.com/daily">Morning Brew</a>
-                                    </span> 
-
-                                    <span class="year">
-                                        (January - March 2021)
-                                    </span>
-                                </h3>
-
-                                <p
-                                >Morning Brew is a business newsletter with over 200,000 subscribers. 
-                                As a Campus Ambassador, I devised a marketing strategy to promote Morning Brew on campus which resulted in over 50 subscribers. 
-                                I also completed several timed promotion challenges called Caffeine Challenges, such as designing a trendy promotion poster.
-                            </p>
-
-                            </div>
 
                         </div>
                     </div>
@@ -143,8 +146,8 @@
                       <h2 class="heading">Education</h2>
                       <div class="content">
                         <div class="item">
-                            <h3 class="title"><a target="_blank" href = "https://apps.carleton.edu/intl/looking/scholarship/faq-starr">Kellogg </a>International Student - <span><a target="_blank" href="https://carleton.edu"><b>Carleton College</b></a></span> <span class="year">(2019 - ...)</span></h3>
-                            <p>Carleton College is a leading liberal arts college, ranked #34 in Computer Science and #5 among all liberal arts colleges by niche.com. Currently, I'm pursuing a major in Computer Science and plan to get a second major in Math.</p>
+                            <h3 class="title"><a target="_blank" href = "https://apps.carleton.edu/intl/looking/scholarship/faq-starr">Kellogg </a>International Student - <span><a target="_blank" href="https://carleton.edu"><b>Carleton College</b></a></span> <span class="year">(2019 - 2023)</span></h3>
+                            <p>Carleton College is ranked #21 among liberal arts colleges in the US. I graduated with a double major in Computer Science and Math, and received a distintion in Computer Science for my final project.</p>
                         </div>
                         <div class="item">
                             <h3 class="title">Student - <span><a target="_blank" href="http://lic145.kiev.ua">Kyiv Natural Sciences Lyceum</a></span> <span class="year">(2015 - 2019)</span></h3>
@@ -165,27 +168,23 @@
                             <!-- ******Carleton Food Rating****** -->
                             <div class="item row">
 
-                                <a class="col-md-4 col-12" href="https://github.com/viktorChekhovoi/carletonfoodrating" target="_blank">
-					                <img class="img-fluid project-image" src="static/logos/foodrating.png" alt="Carleton College Food rating" style="vertical-align:middle">
+                                <a class="col-md-4 col-12" href="https://digitalcommons.carleton.edu/comps/3350/" target="_blank">
+					                <img class="img-fluid project-image" src="static/logos/carleton.png" alt="GeoDE" style="vertical-align:middle">
                                 </a>
 
                                 <div class="desc col-md-8 col-12">
 				                	<h3 class="title">
-                                        <a href="https://github.com/viktorChekhovoi/carletonfoodrating" target="_blank">
-                                            Carleton Food Rating - what's good today?
+                                        <a href="https://digitalcommons.carleton.edu/comps/3350/" target="_blank">
+                                            GeoDE: An Interactive Web Tool for Carleton's Geothermal Data
                                         </a>
                                     </h3>
 
                                     <p class="mb-2">
-                                        Carleton Food Rating is a website currently in development, made with flask and SQLAlchemy. It displays the food currently available in Carleton's dining halls, and lets the users rate the food without creating an account.
+                                        I developed GeoDE for my final project at Carleton. Developed for use in learning and research, it provides an easy way to 
+                                        query, graph, and analyze the ~100m rows of temperature data collected through Carleton's geothermal power system. 
+                                        It allows the Geology department to study subterranean rivers and analyze the system's effects on them.
                                     </p>
 
-                                    <p>
-                                        <a class="more-link" href="https://github.com/viktorChekhovoi/carletonfoodrating" target="_blank">
-                                            <i class="fas fa-external-link-alt"></i>
-                                            Carleton Food Rating on GitHub
-                                        </a>
-                                    </p>
                                 </div>
                             </div>
 
@@ -211,33 +210,6 @@
                                         <a class="more-link" href="https://github.com/pyodide/pyodide" target="_blank">
                                             <i class="fas fa-external-link-alt"></i>
                                             Pyodide on GitHub
-                                        </a>
-                                    </p>
-                                </div>
-                            </div>
-
-                            <!-- ******Posture Check****** -->
-                            <div class="item row">
-
-                                <a class="col-md-4 col-12" href="https://github.com/viktorChekhovoi/PostureCheck" target="_blank">
-					                <img class="img-fluid project-image" src="static/logos/PostureCheck.png" alt="Work Reminder" />
-                                </a>
-
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title">
-                                        <a href="https://github.com/viktorChekhovoi/workReminder" target="_blank">
-                                            PostureCheck - Python program to help your spine
-                                        </a>
-                                    </h3>
-
-                                    <p class="mb-2">
-                                        PostureCheck is a Python program that uses your laptop's camera to reliably monitor your posture. Just launch it, give it half a second to adjust, and keep working as usual. PostureChecker will play an alarm when you slouch and turn it off when you sit straight.
-                                    </p>
-
-                                    <p>
-                                        <a class="more-link" href="https://github.com/viktorChekhovoi/PostureCheck" target="_blank">
-                                            <i class="fas fa-external-link-alt"></i>
-                                            PostureCheck on GitHub
                                         </a>
                                     </p>
                                 </div>
@@ -297,7 +269,7 @@
                                     <span class="sr-only">
                                         Location:
                                     </span>
-                                    Northfield, MN, US
+                                    Saint Paul, MN, US
                                 </li>
 				                <li>
                                     <i class="fas fa-envelope"></i>
@@ -334,7 +306,7 @@
                                     <div class="item">
                                         <h3 class="level-title">
                                             Linux
-                                            <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Used Ubuntu for years, regularly use Linux for work and school.">
+                                            <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Years of experience with Ubuntu.">
                                                 <i class="fas fa-info-circle"></i>
                                                 Very experienced
                                             </span>
@@ -349,13 +321,13 @@
                                     <div class="item">
                                         <h3 class="level-title">
                                             Python
-                                            <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Studied in college, regularly use for work, projects, and hackathons.">
+                                            <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Regularly use for work, projects, and hackathons.">
                                                 <i class="fas fa-info-circle"></i>
                                                 Very experienced
                                             </span>
                                         </h3>
                                         <div class="level-bar">
-                                            <div class="level-bar-inner" data-level="75%">
+                                            <div class="level-bar-inner" data-level="85%">
                                             </div>                                      
                                         </div>
                                     </div>
@@ -364,7 +336,7 @@
                                     <div class="item">
                                         <h3 class="level-title">
                                             Amazon Web Services
-                                            <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Studied from a Caterpillar-hosted course, a lot of work experience. Regularly use Lambda, ECS, Cloudformation, Cloudwatch, etc.">
+                                            <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Years of work experience coupled with several Amazon-hosted courses. Regularly use Lambda, ECS, Cloudformation, Cloudwatch, etc.">
                                                 <i class="fas fa-info-circle"></i>
                                                Very  Experienced
                                             </span>
@@ -378,7 +350,7 @@
                                     <!-- ******Pipelines****** -->
                                     <div class="item">
                                         <h3 class="level-title">
-                                            CI/CD Pipelines
+                                            CI/CD
                                             <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Regularly use for work, set up over a dozen pipelines that interact with AWS, Git, Docker repositories, and other services">
                                                 <i class="fas fa-info-circle"></i>
                                                 Experienced
@@ -394,7 +366,7 @@
                                     <div class="item">
                                         <h3 class="level-title">
                                             Java
-                                            <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Studied in college and in a Samsung-hosted course. Used for Android app development, OOP; some experience with Apache Hadoop and Hudi.">
+                                            <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Studied in college and in a Samsung-hosted course. Used for Android app development; some experience with Apache Hadoop and Hudi.">
                                                 <i class="fas fa-info-circle"></i>
                                                 Some Experience
                                             </span>
@@ -415,14 +387,14 @@
                         <h2 class="heading">Other Skills</h2>
                         <div class="content">
                                 <span class="title"><strong>Python:</strong></span>
-                                <span class="level">numpy, Pandas, PySpark, Apache software, boto3</span>
+                                <span class="level">numpy, Pandas, PySpark, Apache Spark, boto3</span>
                                 <br>
                                 
                                 <span class="title"><strong>Other programming languages:</strong></span>
-                                <span class="level">C, R, SQL</span>
+                                <span class="level">C, R, SQL, Javascript</span>
                                 <br>
                                 <span class="title"><strong>Other:</strong></span>
-                                <span class="level">Docker, proficiency with Linux shell, fast learning & adaptability</span>
+                                <span class="level">Docker, proficiency with Linux shell, </span>
                         </div>
                     </div>
                 </aside>
@@ -494,11 +466,15 @@
                         <div class="content">
                             <ul class="list-unstyled">
                                 <li class="item">
-                                    <span class="title"><strong>Caterpillar Intern Hackathon:</strong></span>
+                                    <span class="title"><strong>Caterpillar Intern Hackathon 2022:</strong></span>
+                                    <span class="level">Led the development of Flask backend for an authentication service for Caterpilar corporate clients, integrated with React and AuroraDB components developed by teammates.</span>
+                                </li>
+                                <li class="item">
+                                    <span class="title"><strong>Caterpillar Intern Hackathon 2021:</strong></span>
                                     <span class="level">In a team of 4, created a website using flask to display and analyze industry data relevant to Caterpillar. Also approximated future trends for the data using <a href="https://facebook.github.io/prophet/">Facebook's prophet package</a>. </span>
                                 </li>
                                 <li class="item">
-                                    <span class="title"><strong>Carleton Midwinter Hackathon:</strong></span>
+                                    <span class="title"><strong>Carleton Midwinter Hackathon 2022:</strong></span>
                                     <span class="level">Led a team of 2 and got the first place for creating <a href="https://github.com/viktorChekhovoi/carletonfoodrating">Carleton Food Rating</a> over a 24-hour period.</span>
                                 </li>
                             </ul>
